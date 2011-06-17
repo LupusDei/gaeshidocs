@@ -1,6 +1,11 @@
-[:div {:style "text-align: center;"}
- [:img {:src "/images/gaeshi.png"}]
- [:h1 "Welcomes You!"]]
+[:div {:style "text-align: center; padding-left: 200px;"}
+  [:table
+    [:tr
+      [:td
+        [:img {:src "/images/gaeshi.png"}]]
+      [:td
+        [:h1 {:style "font-size: 64px;"} "Docs"]]]]]
+
 
 [:h3 "Intro"]
 [:p "Gaeshi is a clojure framework for building Google AppEngine sites. The project home is at "
