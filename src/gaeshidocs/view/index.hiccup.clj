@@ -16,6 +16,10 @@
   [:li [:b "Tsukuri"] "- which means 'entry', is a library containing all the development tools."]
   [:li [:b "Kake"] "- which means 'execution', is the runtime library that contains all the main APIs."]]]
 
+[:p
+  [:a {:href "/getting-started" :style "font-size: 16px"} "Get started now!"]
+]
+
 [:h3 "License"]
 [:p "Copyright (C) 2011 Micah Martin All Rights Reserved."]
 [:p "Distributed under the The MIT License."]
