@@ -19,6 +19,9 @@
 [:p
   [:a {:href "/getting-started" :style "font-size: 16px"} "Get started now!"]
 ]
+[:p
+  [:a {:href "/getting-started/deploying" :style "font-size: 16px"} "Learn how to deploy to Google App Engine!"]
+]
 
 [:h3 "License"]
 [:p "Copyright (C) 2011 Micah Martin All Rights Reserved."]

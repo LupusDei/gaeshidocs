@@ -43,3 +43,8 @@
   ]
 ]
 
+[:p
+  [:a {:href "/getting-started/deploying" :style "font-size: 16px"} "Now learn how to deploy to Google App Engine!"]
+]
+
+

@@ -6,4 +6,5 @@
 
 (defroutes getting-started-controller
   (GET "/getting-started" [] (render-template "getting_started/first_step"))
+  (GET "/getting-started/deploying" [] (render-template "getting_started/appspot_deploy"))
   )
