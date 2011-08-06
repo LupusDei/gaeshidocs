@@ -1,8 +1,8 @@
 [:div {:style "text-align: center"}
   [:h1 "Getting Started"]]
 
-[:h2 "First things First"]
-[:div {:style "font-size: 12px; width:500px" :class "instructions"}
+[:div {:class "instructions"}
+  [:h2 "First Things First"]
   [:p "Getting started with a new Gaeshi Application is a piece of cake, but first you need to have your environment set up."]
 
   [:p "Lets make sure we have everything we need and then we can dive into starting our new Gaeshi App!"]
@@ -20,8 +20,8 @@
     ]
   ]
 ]
-[:h2 "Making a New Gaeshi App"]
-[:div {:style "font-size: 12px; width:500px" :class "instructions"}
+[:div {:class "instructions"}
+  [:h2 "Making a New Gaeshi App"]
   [:p "Great!  Now we can get started on our new web application."]
 
   [:ol

@@ -8,6 +8,8 @@
 
 (defroutes gaeshidocs-routes
   (GET "/" [] (render-template "index"))
+  (GET "/getting-started" [] (render-template "statics/getting_started"))
+  (GET "/deploying" [] (render-template "statics/deploying"))
   (controller-router 'gaeshidocs.controller)
   (not-found (render-template "not_found" :template-root "gaeshidocs/view" :ns `gaeshidocs.view.view-helpers)))
 

@@ -1,6 +1,71 @@
-body { background:#9fc442; font-family:sans-serif; font-size:62.5%; }
+body {
+  background:#9fc442;
+  font-family:sans-serif;
+  font-size: 80%;
+  margin: 0;
+}
+
+h1 {
+  font-family: Helvetica;
+}
+
+.instructions {
+  margin-left: 13%;
+  width: 42em;
+  font-family: "FrescoPlusNormal", Georgia, serif;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.instructions h2 {
+  font-size: 1.2em;
+  font-family: Helvetica;
+}
+.instructions p {
+  margin: .5em 0;
+}
 
 .instructions ol li {
   margin-bottom: 1em;
+}
+
+.logo {
+  padding-left: 13%;
+  padding-top: .666em;
+  float: left;
+  vertical-align: center;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  height: 3.66em;
+  background-color: #aed242;
+  border-bottom: 1px solid #bdb;
+  margin: 0 0 1em 0;
+}
+
+header nav {
+  padding-left: 25%;
+  width: 50%;
+  padding-top: 0.666em;
+}
+
+header nav a {
+  margin: 0 1.5em;
+  font-size: 1.333em;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:underline;
+  text-shadow:none;
+}
+
+.active {
+  border-bottom: 2px solid black;
 }
 
